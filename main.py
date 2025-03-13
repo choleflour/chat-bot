@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from openai import OpenAI
 load_dotenv()
 
-# openai.api_key = "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"
 client = OpenAI(
     # This is the default and can be omitted
     api_key=os.environ.get("OPENAI_API_KEY"),
